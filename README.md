@@ -64,6 +64,10 @@ Don’tSellaProduct
 【搜索引擎模式】： 小明, 硕士, 毕业, 于, 中国, 科学, 学院, 科学院, 中国科学院, 计算, 计算所, 后, 在, 日本, 京都, 大学, 日本京都大学, 深造
 ```
 - vector_word(): 生成词向量矩阵并保存
+> TF-IDF
+``` TF-IDF是Text Frequency – Inverse Document Frequency的缩写，很显然从字面意思上，TF-IDF是由两部分组成的，前半部分是词频，后半部分是逆文档频率。TF-IDF是衡量单词重要性的一种指标。 
+具体参考 https://en.wikipedia.org/wiki/Tf%E2%80%93idf
+```
 
 ## 分类器
 - 逻辑回归分类器
