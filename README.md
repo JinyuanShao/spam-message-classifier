@@ -87,4 +87,4 @@ model_selection.cross_validation()中的五折交叉验证
 
 ## 展示demo
 
-## 项目过程中总结的经验教训
+## 总结与经验教训
