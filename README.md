@@ -5,7 +5,7 @@ This is a project from Web Data Mining course of UCAS
 
 国科大网络数据挖掘课程大作业
 
-本项目基于python中文分词包jieba进行分词，使用了Logistic Regression, GDBT, Forest Classifier等分类器进行分类，达到了较好的效果
+本项目基于python中文分词包jieba进行分词，使用多个机器学习经典方法进行分类，达到了较好的效果
 
 jieba分词包的使用参考：https://github.com/fxsjy/jieba
 
@@ -51,9 +51,19 @@ Don’tSellaProduct
 ```
 ## 数据预处理
 
-- data_loading: 加载数据
-- split_word: 对所有数据利用jieba分词并保存
-- vector_word: 生成词向量矩阵并保存
+- data_loading(): 加载数据
+- split_word(): 对所有数据利用jieba分词并保存
+> 分词结果
+```
+【全模式】: 我/ 来到/ 北京/ 清华/ 清华大学/ 华大/ 大学
+
+【精确模式】: 我/ 来到/ 北京/ 清华大学
+
+【新词识别】：他, 来到, 了, 网易, 杭研, 大厦    (此处，“杭研”并没有在词典中，但是也被Viterbi算法识别出来了)
+
+【搜索引擎模式】： 小明, 硕士, 毕业, 于, 中国, 科学, 学院, 科学院, 中国科学院, 计算, 计算所, 后, 在, 日本, 京都, 大学, 日本京都大学, 深造
+```
+- vector_word(): 生成词向量矩阵并保存
 
 ## 分类器
 - 逻辑回归分类器
