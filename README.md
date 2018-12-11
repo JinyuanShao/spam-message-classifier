@@ -9,18 +9,23 @@ This a a project from Web Data Mining course of UCAS
 
 jieba分词包的使用参考：https://github.com/fxsjy/jieba
 
-##环境
+## 环境
 
 - Python 2/3
 - pandas
 - numpy
 - jieba
 - scikit-learn
-
-##数据集
+- PHP
+## 数据集
 
 使用老师给的带有标签的数据集进行训练与验证
 
 使用老师给的不带有标签的数据集进行测试
 
 数据集划分：
+
+- 训练集：50000
+- 测试集：10000
+
+## 数据预处理
