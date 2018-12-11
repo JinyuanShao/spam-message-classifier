@@ -29,3 +29,8 @@ jieba分词包的使用参考：https://github.com/fxsjy/jieba
 - 测试集：10000
 
 ## 数据预处理
+
+- data_loading: 加载数据
+- split_word: 对所有数据利用jieba分词并保存
+- vector_word: 生成词向量矩阵并保存
+
