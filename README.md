@@ -1,5 +1,5 @@
 # spam-message-classifier 中文垃圾短信分类器
-This a a project from Web Data Mining course of UCAS
+This is a project from Web Data Mining course of UCAS
 
 使用jieba分词包及多种机器学习分类法进行中文文本分类
 
@@ -55,3 +55,17 @@ Don’tSellaProduct
 - split_word: 对所有数据利用jieba分词并保存
 - vector_word: 生成词向量矩阵并保存
 
+## 分类器
+- 逻辑回归分类器
+- 随机森林分类器
+- 决策树分类器
+- 梯度提升树分类器
+- 多项式分布的朴素贝叶斯
+- 伯努利分布的朴素贝叶斯
+
+
+## 验证方法
+
+model_selection.cross_validation()中的五折交叉验证
+
+## 训练结果
