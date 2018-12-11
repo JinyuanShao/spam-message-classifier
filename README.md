@@ -5,7 +5,7 @@ This is a project from Web Data Mining course of UCAS
 
 国科大网络数据挖掘课程大作业
 
-本项目基于python中文分词包jieba进行分词，使用多个机器学习经典方法进行分类，达到了较好的效果
+本项目基于python中文分词包jieba进行分词，使用六种算法进行垃圾短信分类，达到了较好的效果
 
 jieba分词包的使用参考：https://github.com/fxsjy/jieba
 
